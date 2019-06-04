@@ -1,0 +1,38 @@
+{
+  "name": "chat-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "body-parser": "~1.0.1",
+    "concurrently": "^4.0.1",
+    "express": "~4.0.0",
+    "serve": "^3.1.0"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "shortid": "^2.2.8",
+    "socket.io": "^2.0.4"
+  },
+  "scripts": {
+    "start": "concurrently --kill-others \"react-scripts start\" \"node server.js\"",
+    "build": "react-scripts build",
+    "api-server": "node server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
