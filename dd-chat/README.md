@@ -16,33 +16,3 @@
 2. Frontend - React
 3. Communication - Socket.io
 
-#Project Structure
-------------------
-
-doordash-chat
-	--public 
-		index.html
-		faviocn.ico
-		manifest.json
-	--spec
-		doordash specifications
-	--src
-		assets
-			css
-				chat-app.css
-		components
-			AvailableRooms
-			ChatForm
-			ChatHeader
-			ChatMessages
-			Message
-			ProfileInfo
-			SignIn
-		constants
-		layout
-		services
-		utils
-			index.js
-
-
-
