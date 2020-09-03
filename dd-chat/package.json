@@ -6,7 +6,7 @@
     "body-parser": "~1.0.1",
     "concurrently": "^4.0.1",
     "express": "~4.0.0",
-    "serve": "^3.1.0"
+    "serve": "^10.1.2"
   },
   "dependencies": {
     "react": "^16.8.6",
