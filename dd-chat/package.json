@@ -13,7 +13,7 @@
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
     "shortid": "^2.2.8",
-    "socket.io": "^2.0.4"
+    "socket.io": "^2.4.0"
   },
   "scripts": {
     "start": "concurrently --kill-others \"react-scripts start\" \"node server.js\"",
